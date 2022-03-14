@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use App\Model\Person;
 
 class Alias extends Model
 {
@@ -11,6 +12,6 @@ class Alias extends Model
 
     public function person()
     {
-        return $this->belongsTo('App\Person');
+        return $this->belongsTo(Person::class);
     }
 }
