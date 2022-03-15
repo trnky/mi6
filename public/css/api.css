@@ -1,0 +1,30 @@
+h1 {
+    padding-left: 0.5 em;
+}
+
+.statuses {
+    padding: 1em 1em;
+    border: 1px solid red;
+    background-color: #eee;
+}
+button {
+    background-color: rgba(98, 164, 240, 0.644);
+}
+
+.people-of-interest__search {
+    padding: 1em 1em;
+    border: 1px solid red;
+    background-color: #ccc;
+}
+
+.people-of-interest__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding-left: 1em;
+    border: 1px solid red;
+    background-color: #eee;
+}
+
+
+/*# sourceMappingURL=api.css.map*/

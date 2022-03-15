@@ -20,3 +20,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 // the actual route is /api/request
 Route::get('request', 'Api\PeopleController@index');
+
+//     /api/statuses
+Route::get('statuses', 'Api\StatusController@index');
+
+//      /api/missions
+Route::post('missions', 'Api\MissionController@store');

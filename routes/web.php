@@ -18,3 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/people-of-interest', 'PeopleController@index');
+
+// for any URL that begins with /missions/, display the view missions.app
+//method view is simplified notation of get pointing to a controller and a method that would just return the same view
+Route::view('/missions/{path?}', 'missions.app')->where('path', ".*");
